@@ -24,6 +24,12 @@ I build web and mobile applications through **YOXON DEV LLC**. My work spans use
 
 > **Source-code policy:** Some projects live in private repositories. Case studies describe product scope and engineering work; they are not claims that the code is publicly available or that every planned capability is shipped.
 
+## Engineering case studies
+
+Each case study documents the problem, technical decisions, and project status. Architecture diagrams describe the relevant workflow; planned components are explicitly labeled.
+
+**[Screenshot and demo publishing checklist](./SHOWCASE_ASSETS.md)** — authentic visuals will be added after sensitive details are removed.
+
 ## How I work
 
 - **Build across the stack:** user-facing experiences, backend integrations, databases and cloud delivery.
