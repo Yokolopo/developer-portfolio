@@ -1,20 +1,32 @@
-# YOXON Scanner — Android Document Workflow
+# YOXON Scanner — Mobile Document Workflows
 
-**Status:** In development · **Source:** private
+**Project stage:** In development | **Repository:** Private | **Area:** Android UI and document handling
 
-## Problem
-Scanning and managing documents should be fast, readable, and easy to navigate on a phone.
+[Back to portfolio](../README.md)
 
-## Engineering scope
-- Android document and PDF-oriented workflows
-- Interactive selection states and navigation feedback
-- Document organization and signature-related UI exploration
-- Arabic/English interface design
-- Iterative testing and accessibility-minded refinements
+## Problem and approach
+Mobile document tasks need clear controls, understandable selection states and readable layouts. This project explores a streamlined Android experience for scanning and PDF workflows.
 
-## What this demonstrates
-Mobile interface implementation, product usability improvements, document workflows and debugging.
+## UI workflow
+```mermaid
+flowchart LR
+ A[Choose action] --> B[Select or capture]
+ B --> C[Review]
+ C --> D[Document output]
+```
 
-**Company portfolio:** https://yoxondevllc.tech
+The diagram describes the product workflow rather than release status.
 
-*This case study describes development work, not a claim that all planned functions are production-ready.*
+## Engineering work
+- Screen layout, visual hierarchy and action selection
+- Immediate feedback on selected document operations
+- Android-oriented navigation and usability review
+- PDF-related interactions and document organization
+- Multilingual UI considerations
+
+## Engineering decisions
+Keep core actions visible. Use a consistent selected state. Check text readability and navigation during emulator and screenshot reviews.
+
+**What it demonstrates:** Mobile interface development, UX debugging and document workflow design.
+
+Screenshots will be added after authentic app captures are checked for private content. See [media checklist](../SHOWCASE_ASSETS.md).
