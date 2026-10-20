@@ -1,20 +1,44 @@
-# ViberCodify — Developer Productivity & Project Intelligence
+# ViberCodify — AI Software Delivery Intelligence
 
-**Status:** Development · **Source:** private
+**Role:** Product owner and full-stack development · **Stage:** Development · **Source code:** Private  
+**Areas:** Next.js, React, TypeScript, PostgreSQL, Drizzle ORM, GitHub workflows, testing
 
-## Problem
-AI-assisted software projects still need checks for maintainability, risk, and deployment readiness.
+[← Back to portfolio](../README.md)
 
-## Engineering scope
-- Next.js and TypeScript-based application development
-- PostgreSQL and Drizzle ORM data modeling
-- Project diagnostics and persistent project-memory workflows
-- GitHub integration and CI verification practices
-- Evaluating opportunities for retrieval and vector-search with pgvector
+## The problem
+
+AI coding assistants help teams write software quickly, but generated work still needs human review, security checks, test coverage, and deployment validation. ViberCodify explores a workflow for making those checks easier to understand and act on.
+
+## Technical approach
+
+The repository contains a Next.js/React/TypeScript application, PostgreSQL tooling through Drizzle and Neon, and commands for automated checks. Its package scripts include **type checking**, **linting**, **Vitest**, **Playwright**, and **production builds**.
+
+```mermaid
+flowchart TD
+  A[GitHub project] --> B[Repository analysis]
+  B --> C[Evidence and checks]
+  C --> D[Project diagnostics]
+  D --> E[Developer review]
+  E --> F[Changes and verification]
+```
+
+*The diagram summarizes the intended analysis workflow; it does not assert that every stage is deployed.*
+
+## Engineering challenges
+
+- **Trustworthy evidence:** separate deterministic checks from LLM-generated explanations and proposals.
+- **Persistent context:** model project state and remembered findings without treating summaries as source-of-truth.
+- **Release confidence:** combine type checking, unit and end-to-end testing, and deployment checks.
+- **Provider flexibility:** design AI integrations so the application is not tied to a single model provider.
+
+## Evidence and implementation
+
+- Verified repository technologies: **Next.js 16, React 19, TypeScript 5, Drizzle ORM, Neon PostgreSQL**.
+- Present development scripts: `build`, `lint`, `typecheck`, `test`, `test:e2e`, and database schema tooling.
+- The public case study does **not** disclose the private application code, claim public test coverage numbers, or represent planned product functions as shipped.
 
 ## What this demonstrates
-Product architecture, developer tooling, server-side workflows, testing, and AI-assisted engineering.
 
-**Company portfolio:** https://yoxondevllc.tech
+Full-stack TypeScript development, developer tooling, data design, CI/testing practices, and engineering trade-offs around AI-assisted software delivery.
 
-*This is a public case study; it does not disclose private repository source code or guarantee that planned features are live.*
+**Contact:** [admin@yoxon.co](mailto:admin@yoxon.co)
