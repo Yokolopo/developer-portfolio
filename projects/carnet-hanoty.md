@@ -1,19 +1,30 @@
-# Carnet Hanoty — Merchant Credit Notebook
+# Carnet Hanoty — Merchant Credit Record App
 
-**Status:** Development · **Source:** private
+**Project stage:** Development | **Repository:** Private | **Area:** Mobile business tools
 
-## Problem
-Small merchants need a simple way to manage customer credit and payment history with dependable local records.
+[Back to portfolio](../README.md)
 
-## Engineering scope
-- Customer-level credit and payment workflows
-- Data consistency for transaction records
-- Backup and recovery design, format validation and integrity checks
-- Merchant-oriented UX and reminder workflow planning
+## User problem
+Small merchants need simple customer credit records and clear transaction histories.
 
-## What this demonstrates
-Business workflow modeling, data-integrity thinking, recovery design and mobile product development.
+## Core workflow
+```mermaid
+flowchart LR
+ A[Customer] --> B[Credit or payment]
+ B --> C[Transaction record]
+ C --> D[Account balance]
+```
 
-**Company portfolio:** https://yoxondevllc.tech
+This is a conceptual view, not a statement that every planned feature has shipped.
 
-*This is a public project summary; customer data and private implementation details are excluded.*
+## Engineering focus
+- Customer and transaction workflows
+- Consistent records and understandable account balances
+- Backup and recovery design
+- Validation when restoring stored information
+- Practical phone-first user experience
+
+## What it demonstrates
+Business workflow modeling, mobile product development, data integrity considerations and usability-focused implementation.
+
+No customer records or private source code are included. Real screenshots can be added after using synthetic sample data. See [media checklist](../SHOWCASE_ASSETS.md).
